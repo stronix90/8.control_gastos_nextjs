@@ -1,0 +1,31 @@
+.UserWidget>div {
+    transition: all .3s ease-in-out;
+    color:white;
+}
+
+.UserWidget>div:hover {
+    transform: scale(1.3);
+}
+
+.UserWidget>div>img {
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.UserWidget .custom-dialog > div {
+    background-color: rgb(20, 20, 20);
+    color:white;
+}
+
+.UserWidget .custom-dialog {
+    top: 60px;
+    margin: 0 0 0 auto;
+}
+
+.UserWidget .modal-header img {
+    width: 96px;
+    border-radius: 50%;
+    padding: 1rem 0;
+}

@@ -1,0 +1,35 @@
+.UserAuth form {
+    display: grid;
+}
+
+.UserAuth form input {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--neutral800);
+    border: solid 1px var(--neutral500);
+    display: block;
+    color: var(--text_off);
+    box-shadow: 0 0 5px 0 var(--white_05);
+}
+
+.UserAuth form input:focus {
+    outline: none;
+    border-bottom: solid 1px green;
+}
+
+.UserAuth .card-footer button {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    background: var(--neutral500);
+    border: solid 1px #2a2a2a;
+    border-radius: 0.3rem;
+    color: var(--text_off);
+    transition: color 0.5s ease-in-out;
+}
+
+.UserAuth .card-footer button i {
+    margin-left: .5rem;
+}

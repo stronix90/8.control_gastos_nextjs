@@ -1,0 +1,22 @@
+.amountField {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.card.bg-dark{
+    color: #DDD;
+}
+
+.card.bg-dark input,
+.card.bg-dark select {
+    background: #464646;
+    color: white;
+    border: solid 1px #2b2b2b;
+}
+
+.card.bg-dark input:focus,
+.card.bg-dark select:focus {
+    outline: none;
+}
